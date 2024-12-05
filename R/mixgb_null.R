@@ -74,6 +74,7 @@ mixgb_null <- function(Obs.m, matrix.method, cbind.types,  pmm.type, pmm.link, p
         print_every_n = print_every_n, verbose = verbose, ...
       )
 
+      print(dmis)
       yhatmis <- predict(xgb.fit, dmis)
 
 
